@@ -34,6 +34,9 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+
+    // ZMQ library
+    implementation("org.zeromq:jeromq:0.5.2")
 }
 
 application {
